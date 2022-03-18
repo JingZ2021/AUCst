@@ -1,10 +1,14 @@
 Package: AUCst
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Type: Package
+Title: Two-dimensional AUC 
+Version: 0.1.0
+Authors@R: c(
+    person("Zhang", "J",  role = "aut"),
+    person("Ning", "J",  role = "aut"),
+    person("Li", "R",  role = "aut"),
+    )
+Maintainer: Zhang J <jzhang.ph@gmail.com>
+Description: The file contains the computing codes and data example of the paper Zhang J, Ning J, and Li R (2021). "On the time-varying predictive performance of longitudinal biomarkers: Measure and estimation". Statistics in Medicine.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
