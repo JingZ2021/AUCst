@@ -67,5 +67,5 @@ obj.i$conv
 
 ## Reference
 
-Zhag, J., Ning, J., Huang X, & Li R. (2021). On the Time-varying Predictive Performance of Longitudinal Biomarkers: Measure and Estimation. Statistics in Medicine,
+Zhag, J., Ning, J., Huang X., & Li R. (2021). On the Time-varying Predictive Performance of Longitudinal Biomarkers: Measure and Estimation. Statistics in Medicine,
 40(23):5065-5077. <https://doi.org/10.1002/sim.9111>
