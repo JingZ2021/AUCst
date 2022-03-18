@@ -1,10 +1,10 @@
-#' Polynomial function
+#' Polynomial
 #'
 #' @param sk
 #' @param t
 #' @param theta
-#'
 #' @return
+#' @export
 #'
 #'
 fp.func3=function(sk,t,theta){
@@ -29,8 +29,8 @@ fp.func3=function(sk,t,theta){
 #' @param eta.sk.mat
 #' @param sk.le.dh
 #' @param Ewt.die
-#'
 #' @return
+#' @export
 #'
 #'
 logL=function(theta,sk,d.times,n1.h.mat,n2.h.mat,eta.sk.mat,sk.le.dh,Ewt.die){
@@ -47,8 +47,8 @@ logL=function(theta,sk,d.times,n1.h.mat,n2.h.mat,eta.sk.mat,sk.le.dh,Ewt.die){
 #' @param resample
 #' @param nsap
 #' @param seed
-#'
 #' @return
+#' @export
 #'
 main1.sub.func=function(da, da.long, sk, par0=c(0.5,0,0,0,0,0,0,0,0,0), tseq.eval, resample=0, nsap=1,seed=12345){
   s.num=length(sk)
