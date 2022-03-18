@@ -1,4 +1,7 @@
+^.*\.Rproj$
 ^AUCst\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^README\.Rmd$
+^da.sim.short\.txt$
+^da.sim.long\.txt$
