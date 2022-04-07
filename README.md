@@ -29,7 +29,7 @@ sort(unique(da.sim.long$vtime))
 obj.i=AUCst::main1.sub.func(da=da.sim.short, 
                             da.long=da.sim.long,
                             sk=c(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2), 
-                            tseq.eval=c(0.4,1.11,1.50,1.90), resample =0, nsap=3)
+                            tseq.eval=c(0.4,1.11,1.50,1.90), resample =1, nsap=3)
 obj.i$AUC          
 #>             [,1]      [,2]      [,3]      [,4]
 #> AUC.st 0.8298518 0.8108635 0.7480704 0.6767092
